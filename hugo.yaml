@@ -85,6 +85,6 @@ params:
       url: "https://raghu.ch"
 
   editPost:
-    URL: "https://github.com/raghuchinnannan/Runbook.site/content"
+    URL: "https://github.com/raghuchinnannan/Runbook.site/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
