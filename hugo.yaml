@@ -1,0 +1,90 @@
+baseURL: 'https://runbook.site/'
+languageCode: en-us
+title: Runbook.Site
+theme:
+  - PaperMod
+params:
+  defaultTheme: auto
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        # - name: Archive
+        #   url: archives
+        #   weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: "Tags"
+          url: tags/
+          weight: 10
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author: Runbook.site
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowAllPagesInArchive: false
+  ShowPageNums: true
+  ShowToc: false
+  # comments: false
+  images: ["images/papermod-cover.png"]
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Opensource Runbook Collection"
+    Content: >
+      👋 Welcome to Runbook.Site - A collection of Opensource Runbooks
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/raghuchinnannan/Runbook.site"
+    - name: X
+      title: Share Runbook.site on X/Twitter
+      url: "https://x.com/intent/tweet/?text=Checkout Runbook Site, a collection of Opensource Runbooks&nbsp&url=https://runbook.site&hashtags=Runbooks,OpenSource"
+    - name: buymeacoffee
+      title: Buy me a Coffee :)
+      url: "https://buymeacoffee.com/raghuchinnannan"
+    - name: Website
+      title: Author :)
+      url: "https://raghu.ch"
+
+  editPost:
+    URL: "https://github.com/raghuchinnannan/Runbook.site/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link

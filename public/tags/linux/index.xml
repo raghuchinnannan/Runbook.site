@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on Runbook.Site</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on Runbook.Site</description>
+    <image>
+      <title>Runbook.Site</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Runbook howzaa</title>
+      <link>http://localhost:1313/runbooks/example-runbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/runbooks/example-runbook/</guid>
+      <description>Example Runbook This is an example runbook is out of the world&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Example Runbook linux docker</title>
+      <link>http://localhost:1313/runbooks/example-runbook-copy-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/runbooks/example-runbook-copy-2/</guid>
+      <description>Example Runbook This is an example runbook&amp;hellip;
+linux
+fewff wefgf sfewrgf
+code block here single line code sdfergf</description>
+    </item>
+    <item>
+      <title>Example Runbook ubuntu</title>
+      <link>http://localhost:1313/runbooks/example-runbook-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/runbooks/example-runbook-copy/</guid>
+      <description>Example Runbook This is an example runbook ubuntu&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>
