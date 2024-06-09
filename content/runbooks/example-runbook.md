@@ -1,6 +1,6 @@
 ---
 title: 'Example Runbook howzaa'
-draft: true
+draft: false
 tags: ["deployment", "linux"]
 author: ["Squadcast", "Raghu Chinnannan"]
 ---

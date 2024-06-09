@@ -1,6 +1,6 @@
 ---
 title: 'Example Runbook linux docker'
-draft: true
+draft: false
 tags: ["linux"]
 ---
 

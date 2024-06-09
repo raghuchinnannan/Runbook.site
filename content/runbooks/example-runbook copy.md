@@ -1,6 +1,6 @@
 ---
 title: 'Example Runbook ubuntu'
-draft: true
+draft: false
 tags: ["deployment", "linux"]
 ---
 
