@@ -5,11 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Example Runbook ubuntu | Runbook.Site</title>
-<meta name="keywords" content="deployment, linux">
-<meta name="description" content="Example Runbook This is an example runbook ubuntu&hellip;">
+<title>Setting Up a New Linux Server | Runbook.Site</title>
+<meta name="keywords" content="linux, server, setup, ubuntu">
+<meta name="description" content="This runbook provides the steps to set up a new Linux server.
+Prerequisites Access to the server Root or sudo privileges Steps Update Package Lists sudo apt update Upgrade Packages sudo apt upgrade -y Install Common Utilities sudo apt install -y curl wget git vim Set Up Firewall sudo ufw allow OpenSSH sudo ufw enable Create a New User sudo adduser newuser sudo usermod -aG sudo newuser Configure SSH Access sudo cp /root/.">
 <meta name="author" content="Runbook.site">
-<link rel="canonical" href="http://localhost:1313/runbooks/example-runbook-copy/">
+<link rel="canonical" href="http://localhost:1313/runbooks/setting-up-new-linux-server-ubuntu/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,7 +19,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/runbooks/example-runbook-copy/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/runbooks/setting-up-new-linux-server-ubuntu/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,10 +59,11 @@
 </noscript>
   
 
-<meta property="og:title" content="Example Runbook ubuntu" />
-<meta property="og:description" content="Example Runbook This is an example runbook ubuntu&hellip;" />
+<meta property="og:title" content="Setting Up a New Linux Server" />
+<meta property="og:description" content="This runbook provides the steps to set up a new Linux server.
+Prerequisites Access to the server Root or sudo privileges Steps Update Package Lists sudo apt update Upgrade Packages sudo apt upgrade -y Install Common Utilities sudo apt install -y curl wget git vim Set Up Firewall sudo ufw allow OpenSSH sudo ufw enable Create a New User sudo adduser newuser sudo usermod -aG sudo newuser Configure SSH Access sudo cp /root/." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/runbooks/example-runbook-copy/" />
+<meta property="og:url" content="http://localhost:1313/runbooks/setting-up-new-linux-server-ubuntu/" />
 <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png" />
 <meta property="article:section" content="runbooks" />
 
@@ -69,8 +71,9 @@
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png" />
-<meta name="twitter:title" content="Example Runbook ubuntu"/>
-<meta name="twitter:description" content="Example Runbook This is an example runbook ubuntu&hellip;"/>
+<meta name="twitter:title" content="Setting Up a New Linux Server"/>
+<meta name="twitter:description" content="This runbook provides the steps to set up a new Linux server.
+Prerequisites Access to the server Root or sudo privileges Steps Update Package Lists sudo apt update Upgrade Packages sudo apt upgrade -y Install Common Utilities sudo apt install -y curl wget git vim Set Up Firewall sudo ufw allow OpenSSH sudo ufw enable Create a New User sudo adduser newuser sudo usermod -aG sudo newuser Configure SSH Access sudo cp /root/."/>
 
 
 <script type="application/ld+json">
@@ -87,8 +90,8 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Example Runbook ubuntu",
-      "item": "http://localhost:1313/runbooks/example-runbook-copy/"
+      "name": "Setting Up a New Linux Server",
+      "item": "http://localhost:1313/runbooks/setting-up-new-linux-server-ubuntu/"
     }
   ]
 }
@@ -97,14 +100,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Example Runbook ubuntu",
-  "name": "Example Runbook ubuntu",
-  "description": "Example Runbook This is an example runbook ubuntu\u0026hellip;",
+  "headline": "Setting Up a New Linux Server",
+  "name": "Setting Up a New Linux Server",
+  "description": "This runbook provides the steps to set up a new Linux server.\nPrerequisites Access to the server Root or sudo privileges Steps Update Package Lists sudo apt update Upgrade Packages sudo apt upgrade -y Install Common Utilities sudo apt install -y curl wget git vim Set Up Firewall sudo ufw allow OpenSSH sudo ufw enable Create a New User sudo adduser newuser sudo usermod -aG sudo newuser Configure SSH Access sudo cp /root/.",
   "keywords": [
-    "deployment", "linux"
+    "linux", "server", "setup", "ubuntu"
   ],
-  "articleBody": "Example Runbook This is an example runbook ubuntu…\n",
-  "wordCount" : "8",
+  "articleBody": "This runbook provides the steps to set up a new Linux server.\nPrerequisites Access to the server Root or sudo privileges Steps Update Package Lists sudo apt update Upgrade Packages sudo apt upgrade -y Install Common Utilities sudo apt install -y curl wget git vim Set Up Firewall sudo ufw allow OpenSSH sudo ufw enable Create a New User sudo adduser newuser sudo usermod -aG sudo newuser Configure SSH Access sudo cp /root/.ssh/authorized_keys /home/newuser/.ssh/ sudo chown newuser:newuser /home/newuser/.ssh/authorized_keys Verification Connect to the server using the new user. Check basic commands and utilities. ",
+  "wordCount" : "92",
   "inLanguage": "en",
   "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -114,7 +117,7 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/runbooks/example-runbook-copy/"
+    "@id": "http://localhost:1313/runbooks/setting-up-new-linux-server-ubuntu/"
   },
   "publisher": {
     "@type": "Organization",
@@ -187,28 +190,57 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Example Runbook ubuntu
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
+      Setting Up a New Linux Server
     </h1>
-    <div class="post-meta">Runbook.site&nbsp;|&nbsp;<a href="https://github.com/raghuchinnannan/Runbook.site/content/runbooks/example-runbook%20copy.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta">Runbook.site&nbsp;|&nbsp;<a href="https://github.com/raghuchinnannan/Runbook.site/tree/main/content/runbooks/setting-up-new-linux-server-ubuntu.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
-  <div class="post-content"><h1 id="example-runbook">Example Runbook<a hidden class="anchor" aria-hidden="true" href="#example-runbook">#</a></h1>
-<p>This is an example runbook ubuntu&hellip;</p>
+  <div class="post-content"><p>This runbook provides the steps to set up a new Linux server.</p>
+<h2 id="prerequisites">Prerequisites<a hidden class="anchor" aria-hidden="true" href="#prerequisites">#</a></h2>
+<ul>
+<li>Access to the server</li>
+<li>Root or sudo privileges</li>
+</ul>
+<h2 id="steps">Steps<a hidden class="anchor" aria-hidden="true" href="#steps">#</a></h2>
+<ol>
+<li><strong>Update Package Lists</strong>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+</span></span></code></pre></div></li>
+<li><strong>Upgrade Packages</strong>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt upgrade -y
+</span></span></code></pre></div></li>
+<li><strong>Install Common Utilities</strong>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install -y curl wget git vim
+</span></span></code></pre></div></li>
+<li><strong>Set Up Firewall</strong>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ufw allow OpenSSH
+</span></span><span style="display:flex;"><span>sudo ufw enable
+</span></span></code></pre></div></li>
+<li><strong>Create a New User</strong>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo adduser newuser
+</span></span><span style="display:flex;"><span>sudo usermod -aG sudo newuser
+</span></span></code></pre></div></li>
+<li><strong>Configure SSH Access</strong>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo cp /root/.ssh/authorized_keys /home/newuser/.ssh/
+</span></span><span style="display:flex;"><span>sudo chown newuser:newuser /home/newuser/.ssh/authorized_keys
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="verification">Verification<a hidden class="anchor" aria-hidden="true" href="#verification">#</a></h2>
+<ul>
+<li>Connect to the server using the new user.</li>
+<li>Check basic commands and utilities.</li>
+</ul>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/deployment/">Deployment</a></li>
       <li><a href="http://localhost:1313/tags/linux/">Linux</a></li>
+      <li><a href="http://localhost:1313/tags/server/">Server</a></li>
+      <li><a href="http://localhost:1313/tags/setup/">Setup</a></li>
+      <li><a href="http://localhost:1313/tags/ubuntu/">Ubuntu</a></li>
     </ul>
   </footer>
 </article>

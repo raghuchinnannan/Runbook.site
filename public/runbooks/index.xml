@@ -13,28 +13,52 @@
     <language>en</language>
     <atom:link href="http://localhost:1313/runbooks/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Runbook howzaa</title>
-      <link>http://localhost:1313/runbooks/example-runbook/</link>
+      <title>Backing Up a MySQL Database</title>
+      <link>http://localhost:1313/runbooks/backup-mysql-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/runbooks/example-runbook/</guid>
-      <description>Example Runbook This is an example runbook is out of the world&amp;hellip;</description>
+      <guid>http://localhost:1313/runbooks/backup-mysql-database/</guid>
+      <description>This runbook describes the process to back up a MySQL database.
+Prerequisites Access to the database server Database credentials Steps Login to the Database Server ssh user@db-server Dump the Database mysqldump -u root -p database_name &amp;gt; backup.sql Compress the Backup tar czf backup.tar.gz backup.sql Transfer the Backup to a Safe Location scp backup.tar.gz user@backup-server:/path/to/backup/ Remove Old Backups find /path/to/backup/ -type f -mtime +30 -exec rm {} \; Verification Check the backup file size and integrity.</description>
     </item>
     <item>
-      <title>Example Runbook linux docker</title>
-      <link>http://localhost:1313/runbooks/example-runbook-copy-2/</link>
+      <title>Deploying a Web Application</title>
+      <link>http://localhost:1313/runbooks/deploying-web-application/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/runbooks/example-runbook-copy-2/</guid>
-      <description>Example Runbook This is an example runbook&amp;hellip;
-linux
-fewff wefgf sfewrgf
-code block here single line code sdfergf</description>
+      <guid>http://localhost:1313/runbooks/deploying-web-application/</guid>
+      <description>This runbook outlines the steps to deploy a web application.
+Prerequisites Access to the repository Deployment credentials Steps Clone the Repository git clone https://github.com/your-repo/web-app.git cd web-app Install Dependencies npm install Run Tests npm test Build the Application npm run build Deploy to Server scp -r build/ user@server:/var/www/web-app Verification Check the web application at http://your-server-address. Ensure all endpoints are working. </description>
     </item>
     <item>
-      <title>Example Runbook ubuntu</title>
-      <link>http://localhost:1313/runbooks/example-runbook-copy/</link>
+      <title>Restoring a MySQL Database</title>
+      <link>http://localhost:1313/runbooks/restore-mysql-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/runbooks/example-runbook-copy/</guid>
-      <description>Example Runbook This is an example runbook ubuntu&amp;hellip;</description>
+      <guid>http://localhost:1313/runbooks/restore-mysql-database/</guid>
+      <description>This runbook details the steps to restore a MySQL database from a backup.
+Prerequisites Access to the database server Database credentials Backup file available Steps Login to the Database Server ssh user@db-server Transfer the Backup File scp user@backup-server:/path/to/backup/backup.tar.gz . Extract the Backup tar xzf backup.tar.gz Restore the Database mysql -u root -p database_name &amp;lt; backup.sql Verify the Restoration mysql -u root -p -e &amp;#34;SHOW TABLES;&amp;#34; database_name Verification Check that all tables and data are present in the database.</description>
+    </item>
+    <item>
+      <title>Setting Up a Firewall</title>
+      <link>http://localhost:1313/runbooks/runbook-format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/runbooks/runbook-format/</guid>
+      <description>This runbook explains how to set up a firewall on a Linux server using UFW.
+Prerequisites Steps ## Verification - </description>
+    </item>
+    <item>
+      <title>Setting Up a Firewall</title>
+      <link>http://localhost:1313/runbooks/setting-firewall-in-linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/runbooks/setting-firewall-in-linux/</guid>
+      <description>This runbook explains how to set up a firewall on a Linux server using UFW.
+Prerequisites Access to the server Root or sudo privileges Steps Install UFW sudo apt install -y ufw Allow SSH Connections sudo ufw allow OpenSSH Enable the Firewall sudo ufw enable Allow Other Essential Services sudo ufw allow http sudo ufw allow https Check Firewall Status sudo ufw status verbose Verification Ensure SSH connection remains intact. Verify that the web server and other allowed services are accessible.</description>
+    </item>
+    <item>
+      <title>Setting Up a New Linux Server</title>
+      <link>http://localhost:1313/runbooks/setting-up-new-linux-server-ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/runbooks/setting-up-new-linux-server-ubuntu/</guid>
+      <description>This runbook provides the steps to set up a new Linux server.
+Prerequisites Access to the server Root or sudo privileges Steps Update Package Lists sudo apt update Upgrade Packages sudo apt upgrade -y Install Common Utilities sudo apt install -y curl wget git vim Set Up Firewall sudo ufw allow OpenSSH sudo ufw enable Create a New User sudo adduser newuser sudo usermod -aG sudo newuser Configure SSH Access sudo cp /root/.</description>
     </item>
   </channel>
 </rss>
