@@ -1,10 +1,11 @@
 ---
-title: "Setting Up a Firewall"
-tags: ["security", "firewall", "linux"]
+searchHidden: true
+title: "Runbook Template"
+tags: ["template", "runbook"]
 author: "Runbook.site"
 ---
 
-This runbook explains how to set up a firewall on a Linux server using UFW.
+This is a template for creating runbooks.
 
 ## Prerequisites
 -
@@ -24,7 +25,7 @@ This runbook explains how to set up a firewall on a Linux server using UFW.
 ```bash
 ```
 5. ** **
-   ```bash
+```bash
 ```
 
 ## Verification

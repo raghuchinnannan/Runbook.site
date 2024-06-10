@@ -66,9 +66,15 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Opensource Runbook Collection"
+    Title: "Collection of Opensource Runbooks"
     Content: >
-      👋 Welcome to Runbook.Site - A collection of Opensource Runbooks
+      👋 Welcome to Runbook.Site - A collection of Opensource Runbooks!
+
+      - [Search Runbooks](/search)
+
+      - [Find Runbooks by tags](/tags)
+
+      - [Add or Improve runbooks](https://github.com/raghuchinnannan/Runbook.site)
 
   socialIcons:
     - name: github
