@@ -1,6 +1,6 @@
 baseURL: 'https://runbook.site/'
 languageCode: en-us
-title: Runbook.Site
+title: Runbook.site
 theme:
   - PaperMod
 params:
